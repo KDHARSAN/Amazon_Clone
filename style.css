@@ -1,0 +1,529 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+}
+  
+#nav-logo{
+    padding: 1px 8px 0px 6px;
+    height: 50px;
+    width: 145px;
+}
+
+#all-button{
+    width: 50px;
+    height: 41px;
+    border-width: 0px ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#all-button:hover{
+    background-color: rgb(221, 223, 226);
+}
+
+#nav-search{
+    display: flex;
+    align-items: center;
+}
+
+#icon-search{
+    width: 25px;
+    height: 25px;
+}
+
+#flag{
+    width: 20px;
+    height:13px;
+}
+
+#language-box{
+    height:50px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:5px;
+    left: 10px;
+
+}
+
+#nav-sign-in-amazon{
+    height: 50px;
+    width:130px;
+    position: relative;
+    top:10px;
+    left: 15px;
+}
+
+#language-down-button{
+    position: relative;
+    top:2px;
+    height: 9px;
+}
+
+#top-sign-in{
+    font-size: 12px;
+}
+
+#bottom-sign-in{
+    font-size:14px;
+}
+
+#nav-input{
+    height: 41px;
+    width: 795px;
+    border-width: 0px;
+    padding: 0px 0px 0px 10px;
+    font-size: 17px;
+}
+
+#input-search{
+    width: 50px;
+    height: 41px;
+    background-color:#febd69;
+    border: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#input-search:hover{
+    background-color: #f7a200;
+}
+
+#nav-deliver{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    width: 90px;
+    height: 60px;
+    position: relative;
+    left:-10px;
+}
+
+.InBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.icon-second{
+    align-items: center;
+}
+
+.logo{
+    height:60px;
+    width: 120px;
+    background-size:cover;
+    background-image: url(amazon_logo.png);
+    margin: 0px 5px 0px 5px;
+}
+
+#nav-order-Amazon{
+    height: 50px;
+    width: 75px;
+    position:relative;
+    top:5px;
+    left: 10px;
+}
+
+#top-order-Amazon{
+    font-size:12px;
+}
+
+#bottom-order-Amazon{
+    font-size:14px;
+    font-weight: bold;
+}
+
+#nav-cart-Amazon{
+    height: 50px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-icon{
+height: 25px;
+width: 38px;
+}
+
+#icon-cart-in{
+    height: 40px;
+    width: 45px;
+    position: relative;
+    bottom: 4px;
+
+}
+
+#cart-words{
+position: relative;
+top:10px;
+left:2px;
+font-weight: bold;
+}
+
+#second-nav{
+    color:white;
+    height: 40px;
+    width:100%;
+    background-color: #222f3d;
+    display: flex;
+    font-size:14px;
+}
+.secnav{
+    padding-right:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#all-sec-nav{
+    height: 39px;
+    width:58px;
+}
+
+
+
+#todaydeal-sec-nav{
+    height: 39px;
+    width:110px;
+    padding-left: 5px;
+
+}
+
+#registry-sec-nav{
+    height: 39px;
+    width:70px;
+
+}
+
+#custom-sec-nav{
+    height: 39px;
+    width:128px;
+}
+
+#giftcard-sec-nav{
+    height: 39px;
+    width:80px;
+}
+
+#sell-sec-nav{
+    height:39px;
+    width:40px;
+}
+
+#menu-sec-nav{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top:8px;
+    left: 10px;
+}
+
+#secnav-all{
+    position: relative;
+    left:7px;
+    font-weight: bold;
+}
+
+#in-box-body-one{
+    background-image: url(bg_image.jpg);
+    height: 500px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+#click-link-in-box-body{
+    background-color: white;
+    height: 40px;
+    width:97%;
+    margin-bottom: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+}
+
+#inlink{
+    text-decoration: none;
+    color: #007185;
+}
+
+.item-box{
+    height: 420px;
+    width:360px;
+    background-color: white;
+}
+
+#main-product-box{
+    height: 700px;
+    box-shadow: 0 0 20px 120px #efefef;
+    background-color:  #efefef;
+}
+
+#in-box-one-main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 190px;
+}
+
+#in-box-two-main{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    bottom: 190px;
+}
+
+#main-box-inside{
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 320px;
+    align-items:center;
+    margin-left: 20px;
+}
+
+.inside-div{
+    height: 130px;
+    width:130px;
+}
+
+.text-box{
+    margin-top:10px;
+}
+
+#img-in-box{
+    height: 130px;
+    width:130px;
+
+}
+
+#inpic{
+    width: 320px;
+    height: 310px;
+    background-image: url(pc_deal.jpg);
+    background-size:cover;
+    margin: 20px 0 0 20px;
+}
+
+#deal-text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.in-line-box{
+    height: 300px;
+    background-size: cover;
+    margin: 20px 0 20px 0;
+    
+}
+
+#boxtwo{
+    margin: 20px 20px 20px 20px;
+}
+
+#inside-p{
+    font-size: 12px;
+}
+
+#down-box{
+    height: 280px;
+    width: auto;
+    background-color: white;
+    position: relative;
+    bottom: 160px;
+    margin: 0 9px 0 9px;
+    padding: 10px 20px 10px 20px
+
+}
+
+
+#cover-box{
+    box-shadow: 0 0 20px 120px #efefef;
+    background-color:  #efefef;  
+}
+
+
+#down-box-in{
+    height: 270px;
+    width: 97%;
+}
+
+
+#heading{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#inhello{
+    padding: 10px 0 0 0 ;
+    display: flex;
+}
+
+
+#footer-one-box{
+    height: 48px;
+    width: 100%;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#in-box-footer{
+    color: white;
+    font-size: 13px;
+}
+
+#footer-two-box{
+    background-color: #232f3e;
+    height: 416px;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-in-box{
+    height: 318px;
+    width: 65%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dddddd;
+    font-size: 14px;
+
+}
+
+.samebox{
+    height: 318px;
+    width: 150px;
+
+}
+
+#in-box-same-footer{
+    position: relative;
+    bottom: 55px;
+}
+
+#footer-three-box{
+    height: 68px;
+    width: 100%;
+    background-color: #232f3e;
+    border-top: 0.5px solid rgb(195, 195, 195);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#in-div-footer{
+    height: 58px;
+    width: 40%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inside-box-logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+   
+}
+
+.footer-button-one{
+    height: 33px;
+    width: 116px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(195, 195, 195);
+    background-color:#232f3e ;
+    border: 0.5px solid  rgb(195, 195, 195) ;
+    border-radius: 3px;
+}
+
+#separete-box{
+    width: 150px;
+}
+
+#button-boxes-one{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#new-separate-box{
+    width: 150px;
+    padding: 0px 15px 0px 5px;
+}
+
+
+#footer-four-box{
+
+    height: 77.2px;
+    width: 100%;
+    background-color:#131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+#inner-box-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+#upper-box-footer{
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lower-box-footer{
+    color: #dddddd;
+    margin-top: 5px;
+}
+
+.link-tag{
+    color: #dddddd;
+    text-decoration: none;
+}
